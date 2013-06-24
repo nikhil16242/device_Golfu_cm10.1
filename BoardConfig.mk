@@ -74,6 +74,7 @@ BOARD_UMS_LUNFILE := "/sys/devices/platform/msm_otg/msm_hsusb/gadget/lun0/file"
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/golfu/bluetooth
 TARGET_SPECIFIC_HEADER_PATH := device/htc/golfu/include
 
 # OpenGL drivers config file path
