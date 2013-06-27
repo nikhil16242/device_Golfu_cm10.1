@@ -61,7 +61,9 @@ BOARD_FLASH_BLOCK_SIZE := 2048
 #TARGET_KERNEL_SOURCE := kernel/golfu
 #TARGET_KERNEL_CONFIG := golfu_defconfig
 #TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
-TARGET_PREBUILD_KERNEL := device/htc/golfu/kernel
+
+# Prebuilt kernel
+TARGET_PREBUILT_KERNEL := device/htc/golfu/kernel
 
 # Vold
 BOARD_VOLD_MAX_PARTITIONS := 32
